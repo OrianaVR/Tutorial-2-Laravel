@@ -37,7 +37,7 @@ class ProductController extends Controller
         return view('product.create')->with('viewData', $viewData);
     }
 
-    public function save(Request $request)
+    public function save(Request $request): View
     {
         $viewData = [];
         $viewData['title'] = 'Save product - Online Store';
