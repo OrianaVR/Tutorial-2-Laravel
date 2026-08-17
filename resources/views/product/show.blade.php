@@ -12,9 +12,7 @@
 
     <div class="col-md-8"> 
       <div class="card-body"> 
-
         <h5 class="card-title"> 
-
           @if ($viewData["product"]["price"] > 80)
             <p style=" color: #ff0000">
                 {{ $viewData["product"]["name"] }}
@@ -24,7 +22,6 @@
                 {{ $viewData["product"]["name"] }}
             </p>
           @endif
-
         </h5> 
 
         <p class="card-text">{{ $viewData["product"]["price"] }}</p>
